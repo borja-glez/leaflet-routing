@@ -28,7 +28,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/leaflet/dist/leaflet.css",
+              "./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css",
+              "./node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.css",
+              "./node_modules/leaflet-control-geocoder/dist/Control.Geocoder.css"
             ],
             "scripts": []
           },
